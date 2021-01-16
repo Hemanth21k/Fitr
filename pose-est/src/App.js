@@ -86,7 +86,7 @@ convertURIToImageData(frame.dataUri).then(imageData => this.setState({
       console.log(this.state.frameImg)
       const framePose = await posenet_model.estimateSinglePose(this.state.frameImg)
       console.log("FramePose: ",framePose)
-      drawResult(framePose,this.state.frameImg,videoWidth,videoHeight,canvasRef)
+      // drawResult(framePose,this.state.frameImg,videoWidth,videoHeight,canvasRef)
     }
   };
   runPosenet();
