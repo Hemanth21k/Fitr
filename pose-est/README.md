@@ -1,3 +1,21 @@
+
+## Modules required 
+
+npm install react-player react-webcam @tensorflow/tfjs @tensorflow-models/posenet capture-video-frame 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
